@@ -1,0 +1,18 @@
+# Dependabot opens PRs automatically when dependencies have updates or known vulnerabilities.
+# Every Dependabot PR goes through the same DevSecOps pipeline.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

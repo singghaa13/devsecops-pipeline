@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+.env
+.env.*
+*.sarif
+zap-report.*
+image.tar.gz

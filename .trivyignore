@@ -1,0 +1,4 @@
+# Accepted risks for Trivy.
+# Add one CVE ID per line ONLY after you have reviewed it, with a reason, e.g.:
+#
+# CVE-2024-12345  # not exploitable: affected function is never called (reviewed by Vinay, 2026-11-23)
